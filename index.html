@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tebak Karakter Hololive ID</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="askName()">
+
+    <section id="kaelaPage" class="page hidden">
+        <header>
+            Hololive ID – Kaela Kovalskia
+        </header>
+
+        <div class="card">
+            <img src="Kaela.jpeg" class="profile-img" alt="Kaela">
+            <h2>Kaela Kovalskia</h2>
+            <p class="desc">
+                Kaela Kovalskia adalah talent Hololive Indonesia Gen 3.  
+                Ia dikenal sebagai <b>Blacksmith Penguin</b> dengan karakter pekerja keras,  
+                berenergi tinggi, dan sering melakukan streaming yang lama (endurance stream).
+            </p>
+        </div>
+
+        <footer>
+            © 2025 Hololive ID – Kaela
+        </footer>
+    </section>
+
+    <section id="wrongPage" class="page hidden">
+        <h1 class="wrong-text">KAMU SALAH!</h1>
+        <button onclick="retryQuiz()" class="retry-btn">Coba Lagi</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
