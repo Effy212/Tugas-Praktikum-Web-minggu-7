@@ -1,0 +1,83 @@
+/* Background & text */
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    text-align: center;
+    background: #111;
+    color: #eee;
+}
+
+/* Halaman */
+.page {
+    padding: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Header & Footer */
+header, footer {
+    background: #e6b800;
+    padding: 18px;
+    text-align: center;
+    color: #111;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+/* Card profil */
+.card {
+    background: #222;
+    padding: 25px;
+    border-radius: 16px;
+    width: 330px;
+    margin: 40px auto;
+    border: 3px solid #444;
+    box-shadow: 0 0 10px #000;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid #555;
+}
+
+.desc {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+/* Salah */
+.wrong-text {
+    color: #ff4444;
+    font-size: 48px;
+    font-weight: 900;
+    text-shadow: 0 0 5px #660000;
+}
+
+/* Tombol Coba Lagi */
+.retry-btn {
+    margin-top: 25px;
+    padding: 12px 30px;
+    background: #e6b800;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #111;
+    transition: 0.25s;
+}
+
+.retry-btn:hover {
+    background: #b89600;
+    transform: scale(1.05);
+}
+
+
